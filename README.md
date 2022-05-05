@@ -16,10 +16,9 @@ Train a model by
 ```bash
 python train.py
 ```
-- `--cache` if set as TRUE all the training data will be loaded at once before the training start.
-This will accelerate the training.
 
 ### Evaluation
+All the model we trained in ./work
 Evaluate the trained model by
 ```bash
 python test.py
