@@ -4,6 +4,7 @@ Make some improvement on the origianal code
 - Modified loss function
 - Extract ffine-grained feature
 - Fused muti-layers features
+The main network and loss function code is in ./model/network
 
 ## Prerequisites
 - Python 3.6
@@ -14,7 +15,7 @@ Make some improvement on the origianal code
 Download [CASIA-B Dataset](http://www.cbsr.ia.ac.cn/english/Gait%20Databases.asp)
 
 #### Pretreatment
-`pretreatment.py` 
+```pretreatment.py```
 
 ### Train
 Train a model by
