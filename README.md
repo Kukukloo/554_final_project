@@ -9,9 +9,7 @@
 Download [CASIA-B Dataset](http://www.cbsr.ia.ac.cn/english/Gait%20Databases.asp)
 
 #### Pretreatment
-`pretreatment.py` uses the alignment method in
-[this paper](https://ipsjcva.springeropen.com/articles/10.1186/s41074-018-0039-6).
-Pretreatment your dataset by
+`pretreatment.py` 
 
 ### Train
 Train a model by
