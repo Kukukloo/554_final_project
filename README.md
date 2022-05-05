@@ -1,5 +1,4 @@
 ## Prerequisites
-
 - Python 3.6
 - PyTorch 0.4+
 - GPU
@@ -9,22 +8,6 @@
 
 ### Dataset & Preparation
 Download [CASIA-B Dataset](http://www.cbsr.ia.ac.cn/english/Gait%20Databases.asp)
-
-**!!! ATTENTION !!! ATTENTION !!! ATTENTION !!!**
-
-Before training or test, please make sure you have prepared the dataset
-by this two steps:
-- **Step1:** Organize the directory as: 
-`your_dataset_path/subject_ids/walking_conditions/views`.
-E.g. `CASIA-B/001/nm-01/000/`.
-- **Step2:** Cut and align the raw silhouettes with `pretreatment.py`.
-(See [pretreatment](#pretreatment) for details.)
-Welcome to try different ways of pretreatment but note that
-the silhouettes after pretreatment **MUST have a size of 64x64**.
-
-Futhermore, you also can test our code on [OU-MVLP Dataset](http://www.am.sanken.osaka-u.ac.jp/BiometricDB/GaitMVLP.html).
-The number of channels and the training batchsize is slightly different for this dataset.
-For more detail, please refer to [our paper](https://arxiv.org/abs/1811.06186).
 
 #### Pretreatment
 `pretreatment.py` uses the alignment method in
@@ -73,25 +56,6 @@ Note that the test is **parallelizable**.
 To conduct a faster evaluation, you could use `--batch_size` to change the batch size for test.
 
 
-## To Do List
-- Transformation: The script for transforming a set of silhouettes into a discriminative representation.
-
-## Authors & Contributors
-GaitSet is authored by
-[Hanqing Chao](https://www.linkedin.com/in/hanqing-chao-9aa42412b/), 
-[Yiwei He](https://www.linkedin.com/in/yiwei-he-4a6a6bbb/),
-[Junping Zhang](http://www.pami.fudan.edu.cn/~jpzhang/)
-and JianFeng Feng from Fudan Universiy.
-[Junping Zhang](http://www.pami.fudan.edu.cn/~jpzhang/)
-is the corresponding author.
-The code is developed by
-[Hanqing Chao](https://www.linkedin.com/in/hanqing-chao-9aa42412b/)
-and [Yiwei He](https://www.linkedin.com/in/yiwei-he-4a6a6bbb/).
-Currently, it is being maintained by
-[Hanqing Chao](https://www.linkedin.com/in/hanqing-chao-9aa42412b/)
-and Kun Wang.
-
-
 ## Citation
 Please cite these papers in your publications if it helps your research:
 ```
@@ -107,6 +71,4 @@ Link to paper:
 - [GaitSet: Cross-view Gait Recognition through Utilizing Gait as a Deep Set](https://ieeexplore.ieee.org/document/9351667)
 
 
-# 554_final_project
-# 554_final_project
 # 554_final_project
