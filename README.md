@@ -1,4 +1,9 @@
 # 554_final_project
+Gait recongnition using Gaitset Network
+Make some improvement on the origianal code
+- Modified loss function
+- Extract ffine-grained feature
+- Fused muti-layers features
 
 ## Prerequisites
 - Python 3.6
@@ -21,3 +26,4 @@ Evaluate the trained model by
 ```bash
 python test.py
 ```
+Some of our trained model in /work
