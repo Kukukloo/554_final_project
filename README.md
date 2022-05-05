@@ -4,6 +4,7 @@ Make some improvement on the origianal code
 - Modified loss function
 - Extract ffine-grained feature
 - Fused muti-layers features
+
 The main network and loss function code is in ./model/network
 
 ## Prerequisites
